@@ -1,0 +1,75 @@
+$appbar_background_color: rgba(0, 0, 0, 0.2);
+$appbar_background_black: rgba(0, 0, 0, 1);
+
+.appbar_wrapper {
+  width: 100vw;
+  height: 15vh;
+  background-color: transparent;
+  position: fixed;
+  z-index: 5;
+  // box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+  transition: background ease-in-out 0.5s;
+}
+
+.appbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  .logo_div {
+    display: flex;
+  }
+
+  h1 {
+    font-weight: bolder;
+  }
+}
+
+.nav_div {
+  ul {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 1rem;
+    li {
+      list-style: none;
+      padding: 0 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+
+      .nav_link {
+        color: white;
+
+        &:hover {
+          color: rgb(160, 187, 221);
+          font-weight: bolder;
+        }
+      }
+
+      .active:focus {
+        color: rgb(160, 187, 221);
+        font-weight: bolder;
+      }
+    }
+  }
+}
+.links {
+  text-decoration: none;
+}
+
+.home_link {
+  color: white;
+}
+.home_link:hover {
+  color: white;
+}
+.links:hover {
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: rgb(160, 187, 221);
+}
+.black_bg {
+  background-color: $appbar_background_black;
+}

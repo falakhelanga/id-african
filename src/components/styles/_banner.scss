@@ -1,0 +1,28 @@
+.banner_wrapper {
+  height: 130vh;
+  background-image: url("../../assets/organic/second_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+}
+
+.banner_container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .banner_content {
+    color: white;
+    h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 3rem;
+    }
+  }
+}

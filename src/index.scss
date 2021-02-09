@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap");
+$brand-color: purple;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  background-color: rgb(238, 238, 238);
+}
+@import "components/styles/appbar";
+@import "components/styles/banner";
+@import "components/styles/button";
+@import "components/styles/section1";
+@import "components/styles/section2";
+@import "components/styles/section3";
+@import "components/styles/section1Card";
+@import "components/styles/section2Card";
+@import "components/styles/section3Card";
+@import "layout/styles/header";
+@import "layout/styles/main";
+@import "layout/styles/footer";

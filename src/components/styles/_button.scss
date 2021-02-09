@@ -1,0 +1,21 @@
+.btn_container {
+  border: 1px solid rgb(160, 187, 221);
+  border-radius: 50px;
+  width: 280px;
+  padding: 3px;
+
+  button {
+    border: 1px solid darken($color: rgb(160, 187, 221), $amount: 50);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: transparent;
+
+    width: 100%;
+    border-radius: 50px;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

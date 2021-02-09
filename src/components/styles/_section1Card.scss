@@ -1,0 +1,19 @@
+.card_wrapper {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  background-color: darken($color: rgb(238, 238, 238), $amount: 10);
+}
+
+.card_content {
+  color: black;
+  h2,
+  p {
+    cursor: pointer;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.row_div {
+  display: flex;
+}
